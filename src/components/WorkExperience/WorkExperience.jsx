@@ -2,108 +2,13 @@ const WorkExperience = () => {
     return (
         <section id="experience" className="my-8">
             <h1 className="text-4xl underline uppercase text-white text-center font-bold"> Work Experience</h1>
-            <ul className="timeline timeline-vertical lg:timeline-horizontal text-white px-8 ">
-                <li>
-                    <div className="timeline-start">1984</div>
-                    <div className="timeline-middle">
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 20 20"
-                            fill="currentColor"
-                            className="w-5 h-5"
-                        >
-                            <path
-                                fillRule="evenodd"
-                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                clipRule="evenodd"
-                            />
-                        </svg>
-                    </div>
-                    <div className="timeline-end timeline-box text-gray-600">
-                        First Macintosh computer
-                    </div>
-                    <hr />
-                </li>
-                <li>
-                    <hr />
-                    <div className="timeline-start">1998</div>
-                    <div className="timeline-middle">
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 20 20"
-                            fill="currentColor"
-                            className="w-5 h-5"
-                        >
-                            <path
-                                fillRule="evenodd"
-                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                clipRule="evenodd"
-                            />
-                        </svg>
-                    </div>
-                    <div className="timeline-end timeline-box text-gray-600">iMac</div>
-                    <hr />
-                </li>
-                <li>
-                    <hr />
-                    <div className="timeline-start">2001</div>
-                    <div className="timeline-middle">
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 20 20"
-                            fill="currentColor"
-                            className="w-5 h-5"
-                        >
-                            <path
-                                fillRule="evenodd"
-                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                clipRule="evenodd"
-                            />
-                        </svg>
-                    </div>
-                    <div className="timeline-end timeline-box text-gray-600">iPod</div>
-                    <hr />
-                </li>
-                <li>
-                    <hr />
-                    <div className="timeline-start">2007</div>
-                    <div className="timeline-middle">
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 20 20"
-                            fill="currentColor"
-                            className="w-5 h-5"
-                        >
-                            <path
-                                fillRule="evenodd"
-                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                clipRule="evenodd"
-                            />
-                        </svg>
-                    </div>
-                    <div className="timeline-end timeline-box text-gray-600">iPhone</div>
-                    <hr />
-                </li>
-                <li>
-                    <hr />
-                    <div className="timeline-start">2015</div>
-                    <div className="timeline-middle">
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 20 20"
-                            fill="currentColor"
-                            className="w-5 h-5"
-                        >
-                            <path
-                                fillRule="evenodd"
-                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                clipRule="evenodd"
-                            />
-                        </svg>
-                    </div>
-                    <div className="timeline-end timeline-box text-gray-600">Apple Watch</div>
-                </li>
-            </ul>
+            <div className=" px-16 py-8 text-gray-200 text-lg italic">
+                <p>I have started a dynamic journey into the world of MERN development, traversing the intricate landscape of MongoDB, Express.js, React, Node.js and Tailwind CSS. From laying the groundwork with MongoDB's robust database structures to crafting seamless user experiences through React's intuitive components, I've embraced the challenges of coding with fervor and adaptability.</p>
+                <br />
+                <p>Through immersive learning, I have honed my abilities to architect scalable applications with Node.js and leverage Express.js to create flexible and efficient server-side frameworks. This journey has been a testament to my resilience and eagerness to dive into complex coding paradigms, continuously expanding my skill set and fostering a passion for crafting innovative solutions.</p>
+                <br />
+                <p>The process of bringing ideas to life through the MERN stack has not only equipped me with technical prowess but instilled in me a mindset that thrives on problem-solving and collaboration. As a fresher, my journey stands as a testament to my dedication to mastering MERN development and my unwavering commitment to evolving alongside the ever-evolving tech landscape</p>
+            </div>
         </section>
     )
 }

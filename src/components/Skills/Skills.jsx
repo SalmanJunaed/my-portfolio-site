@@ -2,11 +2,12 @@
 import { FaCss3Alt, FaHtml5, FaNodeJs, FaReact, FaShopify, FaWindows, FaWordpress } from "react-icons/fa6";
 import { TbBrandJavascript } from "react-icons/tb";
 import { FaLinux } from "react-icons/fa";
-import { SiAdobepremierepro, SiExpress, SiMongodb, SiVisualstudiocode } from "react-icons/si";
+import { SiAdobepremierepro, SiExpress, SiJsonwebtokens, SiMongodb, SiVisualstudiocode } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
 import { DiPhotoshop } from "react-icons/di";
 import { DiIllustrator } from "react-icons/di";
 import { BiLogoBlender } from "react-icons/bi";
+import { IoLogoFirebase } from "react-icons/io5";
 
 const Skills = () => {
     return (
@@ -39,6 +40,8 @@ const Skills = () => {
                 <h2 className=" text-xl text-white py-2">Tools</h2>
                 <div className="text-2xl inline-flex gap-4">
                     <SiVisualstudiocode className="text-sky-400"/>
+                    <IoLogoFirebase className="text-yellow-500"/>
+                    <SiJsonwebtokens className="text-white"/>
                     {/* <SiLatex className="text-sky-400"/> */}
                 </div>
             </div>
