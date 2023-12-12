@@ -6,7 +6,6 @@ import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
 import Navbar from "../../components/Navbar/Navbar";
 import Projects from "../../components/Projects/Projects";
-import ResumeDownload from "../../components/ResumeDownload/ResumeDownload";
 import Skills from "../../components/Skills/Skills";
 import WorkExperience from "../../components/WorkExperience/WorkExperience";
 
@@ -23,7 +22,6 @@ const Home = () => {
                 <Banner/>
                 <Navbar/>
                 <About/>
-                <ResumeDownload/>
                 <Skills/>
                 <WorkExperience/>
                 <Projects/>

@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 const Header = () => {
     return (
         <header id="home" className="bg-gray-800 text-white py-4 hidden lg:block">
-            <div className="container xm-auto flex justify-end py-6 ">
+            <div className="container xm-auto flex justify-end pr-4">
                 <div></div>
                 <div className="flex justify-center gap-2 lg:flex-row">
 
