@@ -3,6 +3,9 @@
 import emailjs from '@emailjs/browser';
 import { useRef } from 'react';
 
+import { HiOutlineMailOpen } from "react-icons/hi";
+import { FaPhoneSquareAlt } from "react-icons/fa";
+
 const ContactMe = () => {
     const form = useRef();
     const sendEmail = (e) => {
@@ -26,15 +29,35 @@ const ContactMe = () => {
         <section id="contact" className="my-8">
             <div className="hero min-h-fit bg-[url('https://i.ibb.co/TLnjK2Y/5166950.jpg')] py-16">
                 <div className="hero-content flex-col lg:flex-row-reverse text-white">
+                    {/* Right side */}
                     <div className=" flex-1 text-center lg:text-left px-12 text-white">
                         <h1 className="text-5xl font-bold text-center">Contact us!</h1>
                         <p className="py-6 text-xl">
                             Put your Name, Email Address and Massage to contact with us. 
+                            <br />
+                            Do Not hesitate to Call, Whatsapp or e-mail me. 
                         </p>
-                        <p className="py-2 text-center text-2xl font-bold text-blue-200">
-                            Thank you. 
+                        
+                        <div className='flex gap-4'>
+                            <HiOutlineMailOpen className='text-sky-500 text-7xl font-bold pl-4' />
+                            <span>
+                                <p>Email Address</p>
+                                <p className='font-bold'>salman9blog@gmail.com</p>
+                            </span>
+                        </div>
+                        <br />
+                        <div className='flex gap-5'>
+                            <FaPhoneSquareAlt className='text-sky-500 text-6xl font-bold pl-4' />
+                            <span>
+                                <p>Phone Number</p>
+                                <p className='font-bold'>+8801734142238</p>
+                            </span>
+                        </div>
+                        <p className="py-2 text-center text-4xl font-bold text-blue-200 pt-8">
+                            Thank You. 
                         </p>
                     </div>
+                    {/* Left Side */}
                     <div className=" flex-1 card w-full shadow-2xl from-transparent px-12">
                         <form ref={form} onSubmit={sendEmail} className="card-body ">
                             <div className="form-control">

@@ -23,13 +23,23 @@ const Banner = () => {
                                 <h1 className="mb-2 text-5xl text-white font-bold upper"> Portfolio of Salman
                                 <TypeAnimation
                                     sequence={[
+                                        'MERN Stack Developer',
+                                        2000,
+                                        'Frontend Developer',
+                                        2000,
+                                        'React Developer',
+                                        2000,
+                                        'Full Stack Developer',
+                                        2000,
+                                        'Web Developer',
+                                        2000,
+                                        'AI & Machine Learning',
+                                        2000,
+                                        'DataScience',
+                                        2000,
                                         'Designer',
                                         2000,
                                         'Animator',
-                                        2000,
-                                        'AI & DataScience',
-                                        2000,
-                                        'Developer',
                                         2000,
                                     ]}
                                     speed={50}
