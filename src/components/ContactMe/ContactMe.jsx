@@ -24,34 +24,34 @@ const ContactMe = () => {
     };
     return (
         <section id="contact" className="my-8">
-            <div className="hero min-h-fit bg-blue-200 py-16">
-                <div className="hero-content flex-col lg:flex-row-reverse">
-                    <div className=" flex-1 text-center lg:text-left px-12">
+            <div className="hero min-h-fit bg-[url('https://i.ibb.co/TLnjK2Y/5166950.jpg')] py-16">
+                <div className="hero-content flex-col lg:flex-row-reverse text-white">
+                    <div className=" flex-1 text-center lg:text-left px-12 text-white">
                         <h1 className="text-5xl font-bold text-center">Contact us!</h1>
-                        <p className="py-6">
+                        <p className="py-6 text-xl">
                             Put your Name, Email Address and Massage to contact with us. 
                         </p>
-                        <p className="py-2 text-center text-xl font-bold text-blue-600">
+                        <p className="py-2 text-center text-2xl font-bold text-blue-200">
                             Thank you. 
                         </p>
                     </div>
-                    <div className=" flex-1 card w-full shadow-2xl bg-base-100 px-12">
-                        <form ref={form} onSubmit={sendEmail} className="card-body">
+                    <div className=" flex-1 card w-full shadow-2xl from-transparent px-12">
+                        <form ref={form} onSubmit={sendEmail} className="card-body ">
                             <div className="form-control">
                                 <label className="label">
-                                    <span className="label-text">Name:</span>
+                                    <span className="label-text text-lg font-bold text-white">Name:</span>
                                 </label>
                                 <input name="user_name" type="text" placeholder="Your Name" className="input input-bordered" required />
                             </div>
                             <div className="form-control">
                                 <label className="label">
-                                    <span className="label-text">Email Address</span>
+                                    <span className="label-text text-lg font-bold text-white">Email Address</span>
                                 </label>
                                 <input name="user_email" type="email" placeholder="Your Email Address" className="input input-bordered" required />
                             </div>
                             <label className="form-control">
                                 <div className="label">
-                                    <span className="label-text">Your bio</span>
+                                    <span className="label-text text-lg font-bold text-white">Type your message</span>
                                 </div>
                                 <textarea name="message" className="textarea textarea-bordered h-24" placeholder="Type your message.........."></textarea>
                             </label>

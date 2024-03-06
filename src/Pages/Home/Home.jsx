@@ -13,7 +13,7 @@ import WorkExperience from "../../components/WorkExperience/WorkExperience";
 
 const Home = () => {
     return (
-        <div className="">
+        <div className="bg-slate-800">
             {/* <h1 className="text-3xl text-center uppercase font-bold underline">
                 Resume site
             </h1> */}
@@ -23,8 +23,8 @@ const Home = () => {
                 <Navbar/>
                 <About/>
                 <Skills/>
-                <WorkExperience/>
                 <Projects/>
+                <WorkExperience/>
                 <Education/>
                 <ContactMe/>
                 <Footer/>

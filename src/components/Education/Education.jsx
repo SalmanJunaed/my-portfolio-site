@@ -2,7 +2,7 @@
 
 const Education = () => {
     return (
-        <section id="education" className="my-8 py-6">
+        <section id="education" className="my-8 py-6 bg-slate-700">
             <h1 className="text-4xl underline uppercase text-white text-center font-bold py-4">
                 Education
             </h1>
@@ -12,11 +12,11 @@ const Education = () => {
                     <thead>
                         <tr>
                             <th></th>
-                            <th className="text-white text-lg">Certification</th>
-                            <th className="text-white text-lg">From where</th>
+                            <th className="text-white text-xl">Certification</th>
+                            <th className="text-white text-xl">From where</th>
                         </tr>
                     </thead>
-                    <tbody>
+                    <tbody className="text-lg">
                       {/* row 1 */}
                         <tr>
                             <th>1</th>
