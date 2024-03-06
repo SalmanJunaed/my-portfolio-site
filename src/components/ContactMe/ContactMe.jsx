@@ -5,6 +5,7 @@ import { useRef } from 'react';
 
 import { HiOutlineMailOpen } from "react-icons/hi";
 import { FaPhoneSquareAlt } from "react-icons/fa";
+import { GrSend } from "react-icons/gr";
 
 const ContactMe = () => {
     const form = useRef();
@@ -31,7 +32,7 @@ const ContactMe = () => {
                 <div className="hero-content flex-col lg:flex-row-reverse text-white">
                     {/* Right side */}
                     <div className=" flex-1 text-center lg:text-left px-12 text-white">
-                        <h1 className="text-5xl font-bold text-center">Contact us!</h1>
+                        <h1 className="text-5xl font-bold text-center text-gray-300">Contact us!</h1>
                         <p className="py-6 text-xl">
                             Put your Name, Email Address and Massage to contact with us. 
                             <br />
@@ -64,23 +65,23 @@ const ContactMe = () => {
                                 <label className="label">
                                     <span className="label-text text-lg font-bold text-white">Name:</span>
                                 </label>
-                                <input name="user_name" type="text" placeholder="Your Name" className="input input-bordered" required />
+                                <input name="user_name" type="text" placeholder="Your Name" className="input input-bordered text-black" required />
                             </div>
                             <div className="form-control">
                                 <label className="label">
                                     <span className="label-text text-lg font-bold text-white">Email Address</span>
                                 </label>
-                                <input name="user_email" type="email" placeholder="Your Email Address" className="input input-bordered" required />
+                                <input name="user_email" type="email" placeholder="Your Email Address" className="input input-bordered text-black" required />
                             </div>
                             <label className="form-control">
                                 <div className="label">
                                     <span className="label-text text-lg font-bold text-white">Type your message</span>
                                 </div>
-                                <textarea name="message" className="textarea textarea-bordered h-24" placeholder="Type your message.........."></textarea>
+                                <textarea name="message" className="textarea textarea-bordered h-24 text-black" placeholder="Type your message.........."></textarea>
                             </label>
                             <div className="form-control mt-6">
                                 <button type="submit" value="Send" className="btn btn-primary">
-                                    Send Massage
+                                    Send Massage<GrSend className='text-4xl font-bold pl-4' />
                                 </button>
                             </div>
                         </form>
