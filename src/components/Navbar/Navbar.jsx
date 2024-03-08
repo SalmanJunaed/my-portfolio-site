@@ -21,8 +21,8 @@ const Navbar = () => {
                     <Link smooth='true'  to='home' className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center hover:bg-green-500"><BiHomeAlt/></Link> {/*Home */}
                     <Link smooth='true'  to='about' className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center hover:bg-green-500"><SiAboutdotme /></Link> {/*About */}
                     <Link smooth='true'  to='skills' className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center hover:bg-green-500"><GiSkills /></Link> {/* Skills  */}
-                    <Link smooth='true'  to='experience' className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center hover:bg-green-500"><BsClipboardData/></Link> {/* Work Experience  */}
                     <Link smooth='true'  to='projects' className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center hover:bg-green-500"><GrProjects /></Link> {/* projects  */}
+                    <Link smooth='true'  to='experience' className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center hover:bg-green-500"><BsClipboardData/></Link> {/* Work Experience  */}
                     <Link smooth='true'  to='education' className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center hover:bg-green-500"><PiGraduationCapBold /></Link> {/* Contact information  */}
                     <Link smooth='true'  to='contact' className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center hover:bg-green-500"><BsBriefcase/></Link> {/* Education  */}
                 </div>

@@ -13,7 +13,9 @@ import WorkExperience from "../../components/WorkExperience/WorkExperience";
 
 const Home = () => {
     return (
-        <div className="bg-slate-800">
+        <div className="
+            bg-gradient-to-r from-indigo-700 via-purple-800 to-slate-800
+        ">
             {/* <h1 className="text-3xl text-center uppercase font-bold underline">
                 Resume site
             </h1> */}

@@ -42,7 +42,7 @@ const Footer = () => {
                 </nav>
             </footer>
             {/* bottom part */}
-            <footer className="items-center bg-neutral text-neutral-content">
+            <footer className="items-center bg-neutral-800 text-neutral-content py-3">
                 <aside className=" grid-flow-col text-center">
                     <p className="text-center">Copyright © 2024 - Author Salman Junaed Islam</p>
                 </aside>
