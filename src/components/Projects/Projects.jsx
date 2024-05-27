@@ -14,7 +14,7 @@ const Projects = () => {
 
             <div className=" px-8 py-8 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1">
                 {/* Card - 1 */}
-                <div className="card w-96 bg-blue-600 shadow-xl text-white">
+                <div className="card w-96 bg-blue-600 shadow-xl text-white hover:bg-slate-700">
                     <figure>
                         <img
                             src="https://i.ibb.co/1L6RDhN/portfolio-01.png"
@@ -98,7 +98,7 @@ const Projects = () => {
                     </div>
                 </div>
                 {/* Card - 2 */}
-                <div className="card w-96 bg-blue-600 shadow-xl text-white">
+                <div className="card w-96 bg-blue-600 shadow-xl text-white hover:bg-slate-700">
                     <figure>
                         <img
                             src="https://i.ibb.co/Kjw7P0X/portfolio-02.png"
@@ -131,7 +131,7 @@ const Projects = () => {
                                 DaisyUI
                             </div>
                             <div className="outline outline-2 outline-offset-2 p-1 rounded-lg mx-1 my-2">
-                                Material UI form
+                                Material UI Form
                             </div>
                             <div className="outline outline-2 outline-offset-2 p-1 rounded-lg mx-1 my-2">
                                 React form
@@ -175,7 +175,7 @@ const Projects = () => {
                     </div>
                 </div>
                 {/* Card - 3 */}
-                <div className="card w-96 bg-blue-600 shadow-xl text-white">
+                <div className="card w-96 bg-blue-600 shadow-xl text-white hover:bg-slate-700">
                     <figure>
                         <img
                             src="https://i.ibb.co/2gTWThZ/portfolio-03.png"
@@ -211,8 +211,11 @@ const Projects = () => {
                                 React Form
                             </div>
                             <div className="outline outline-2 outline-offset-2 p-1 rounded-lg mx-1 my-2">
-                                Material UI form,
+                                Material UI Form
                             </div>
+                            {/* <div className="outline outline-2 outline-offset-2 p-1 rounded-lg mx-1 my-2">
+                                React Hook
+                            </div> */}
                         </div>
                         <p>
                             Client Git link:{" "}

@@ -1,7 +1,7 @@
 const WorkExperience = () => {
     return (
         <section id="experience" className="my-8">
-            <h1 className="text-4xl underline uppercase text-white text-center font-bold"> Work Experience</h1>
+            <h1 className="text-4xl underline uppercase text-white text-center font-bold"> Self Employed Work Experience</h1>
             <div className=" px-16 py-8 text-gray-200 text-lg italic">
                 <p>I have started a dynamic journey into the world of MERN development, traversing the intricate landscape of MongoDB, Express.js, React, Node.js and Tailwind CSS. From laying the groundwork with MongoDB's robust database structures to crafting seamless user experiences through React's intuitive components, I've embraced the challenges of coding with fervor and adaptability.</p>
                 <br />
