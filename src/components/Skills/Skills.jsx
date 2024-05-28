@@ -20,7 +20,20 @@ import { motion } from "framer-motion";
 const Skills = () => {
     return (
         <section id="skills" className="py-12 bg-blue-950 text-center bg-[url('https://i.ibb.co/RCm8F89/5166950-2.jpg')]">
-            <motion.h1 className="text-4xl underline uppercase text-white text-center font-bold"> Development Skills </motion.h1>
+            <motion.h1 
+                initial={{y: -100, opacity:0}}
+                whileInView={{y:0, opacity:1}}
+                transition={{
+                    delay:0.2, 
+                    x:{type:"spring", stiffness:60 }, 
+                    opacity:{duration: 1},
+                    ease:"easeIn",
+                    duration: 1, 
+                }}
+                className="text-4xl underline uppercase text-white text-center font-bold"
+            > 
+                Development Skills 
+            </motion.h1>
             
             <div className="px-16 py-4">
                 <h2 className=" text-xl text-white py-2">Languages</h2>

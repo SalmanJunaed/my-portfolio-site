@@ -43,7 +43,7 @@ const About = () => {
                                 href="https://www.linkedin.com/in/salman-junaed-islam-b76367a9/" 
                                 target="blank"
                             >
-                                <FaLinkedin className="text-white text-6xl font-bold pl-4 hover:text-green-600 hover:text-7xl"  />
+                                <FaLinkedin className="text-white text-6xl font-bold pl-4 hover:text-green-600 hover:text-7xl duration-300 "  />
                             </motion.a>
                             <motion.a
                                 initial={{y: 100, opacity:0}}
@@ -58,7 +58,7 @@ const About = () => {
                                 href="https://www.facebook.com/salman1.junaed/" 
                                 target="blank"
                             >
-                                <FaFacebookSquare className="text-white text-6xl font-bold pl-4 hover:text-green-600 hover:text-7xl"/>
+                                <FaFacebookSquare className="text-white text-6xl font-bold pl-4 hover:text-green-600 hover:text-7xl duration-300 "/>
                             </motion.a>
                             <motion.a 
                                 initial={{x: -100, opacity:0}}
@@ -73,7 +73,7 @@ const About = () => {
                                 href="https://github.com/SalmanJunaed" 
                                 target="blank"
                             >
-                                <FaGithubSquare className="text-white text-6xl font-bold pl-4 hover:text-green-600 hover:text-7xl" />
+                                <FaGithubSquare className="text-white text-6xl font-bold pl-4 hover:text-green-600 hover:text-7xl duration-300 " />
                             </motion.a>
                         </div>
                         <motion.div 
