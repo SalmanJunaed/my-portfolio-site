@@ -50,7 +50,7 @@ const Banner = () => {
                                 
                                 </TypeAnimation>
                                 </h1>
-                                <p className="mb-5 text-lg text-white">A passionate MERN Stack focused REACT developer from Bangladesh, I have been working with react for 1 year 6 months and learning MERN stack related technologies for advanced development for 1 years. Enthusiastic about MERN development and looking to establish myself as a senior MERN developer within the next 3 years.</p>
+                                <p className="mb-5 text-lg text-white">A passionate MERN Stack focused REACT developer from Bangladesh, I have been working with REACT for 2 years and learning MERN stack-related technologies for advanced development for 1 year. Enthusiastic about MERN development and looking to establish myself as a senior MERN developer within the next 3 years.</p>
                                 {/* Social media buttons */}
                                 {/* <div className='grid grid-cols-3 gap-6'>
                                     <a className="btn text-2xl text-blue-800" href="https://www.linkedin.com/in/salman-junaed-islam-b76367a9"><FaLinkedin/></a>

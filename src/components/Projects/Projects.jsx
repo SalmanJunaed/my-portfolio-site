@@ -328,8 +328,7 @@ const Projects = () => {
                         </p>
                         <p>
                             <span className="font-bold">Description: </span>
-                            It is a e-commerce site with an easy
-                            and user-friendly UI, with interactive Animation features.
+                            This project is an e-commerce site with an easy and user-friendly UI, Unique Dashboard and interactive Animation features.
                         </p>
                     </div>
                 </div>
