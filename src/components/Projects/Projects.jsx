@@ -175,7 +175,7 @@ const Projects = () => {
                     </div>
                 </div>
                 {/* Card - 3 */}
-                <div className="card w-96 bg-blue-600 shadow-xl text-white hover:bg-slate-700">
+                {/* <div className="card w-96 bg-blue-600 shadow-xl text-white hover:bg-slate-700">
                     <figure>
                         <img
                             src="https://i.ibb.co/2gTWThZ/portfolio-03.png"
@@ -185,7 +185,9 @@ const Projects = () => {
                     <div className="card-body">
                         <h2 className="text-center text-2xl font-bold text-gray-200">
                             Electronics Shop
-                            {/* <div className="badge badge-secondary">NEW</div> */}
+                            
+                            <div className="badge badge-secondary">NEW</div>
+                            
                         </h2>
                         <p className="text-center">Technologies:</p>
                         <div className="card-actions justify-center">
@@ -213,9 +215,9 @@ const Projects = () => {
                             <div className="outline outline-2 outline-offset-2 p-1 rounded-lg mx-1 my-2">
                                 Material UI Form
                             </div>
-                            {/* <div className="outline outline-2 outline-offset-2 p-1 rounded-lg mx-1 my-2">
+                            <div className="outline outline-2 outline-offset-2 p-1 rounded-lg mx-1 my-2">
                                 React Hook
-                            </div> */}
+                            </div>
                         </div>
                         <p>
                             Client Git link:{" "}
@@ -247,6 +249,83 @@ const Projects = () => {
                         <p>
                             <span className="font-bold">Description: </span>
                             It is a tech-related e-commerce site with an easy
+                            and user-friendly UI.
+                        </p>
+                    </div>
+                </div> */}
+                {/* Card - 4 */}
+                <div className="card w-96 bg-blue-600 shadow-xl text-white hover:bg-slate-700">
+                    <figure>
+                        <img
+                            src="https://i.ibb.co/h2w2VPH/portfolio-04.png"
+                            alt="Shoes"
+                        />
+                    </figure>
+                    <div className="card-body">
+                        <h2 className="text-center text-2xl font-bold text-gray-200">
+                            Lets-Shop
+                            {/* <div className="badge badge-secondary">NEW</div> */}
+                        </h2>
+                        <p className="text-center">Technologies:</p>
+                        <div className="card-actions justify-center">
+                            <div className="outline outline-2 outline-offset-2 p-1 rounded-lg mx-1 my-2">
+                                TailwindCSS
+                            </div>
+                            <div className="outline outline-2 outline-offset-2 p-1 rounded-lg mx-1 my-2">
+                                React.JS
+                            </div>
+                            <div className="outline outline-2 outline-offset-2 p-1 rounded-lg mx-1 my-2">
+                                Node.js
+                            </div>
+                            <div className="outline outline-2 outline-offset-2 p-1 rounded-lg mx-1 my-2">
+                                Express.js
+                            </div>
+                            <div className="outline outline-2 outline-offset-2 p-1 rounded-lg mx-1 my-2">
+                                MongoDB
+                            </div>
+                            <div className="outline outline-2 outline-offset-2 p-1 rounded-lg mx-1 my-2">
+                                DaisyUI
+                            </div>
+                            <div className="outline outline-2 outline-offset-2 p-1 rounded-lg mx-1 my-2">
+                                React Form
+                            </div>
+                            <div className="outline outline-2 outline-offset-2 p-1 rounded-lg mx-1 my-2">
+                                Material UI Form
+                            </div>
+                            <div className="outline outline-2 outline-offset-2 p-1 rounded-lg mx-1 my-2">
+                                React Hook
+                            </div>
+                        </div>
+                        <p>
+                            Client Git link:{" "}
+                            <a
+                                href="https://github.com/SalmanJunaed/lets-shop-client"
+                                className="text-green-400 font-bold"
+                            >
+                                Client Code
+                            </a>
+                        </p>
+                        <p>
+                            Server Git link:{" "}
+                            <a
+                                href="https://github.com/SalmanJunaed/lets-shop-server"
+                                className="text-green-400 font-bold"
+                            >
+                                Server code
+                            </a>
+                        </p>
+                        <p>
+                            Live link:{" "}
+                            <a
+                                href="https://fascinating-bubblegum-34f6fd.netlify.app/"
+                                className="text-green-400 font-bold"
+                            >
+                                Live Site
+                            </a>
+                        </p>
+                        <p>
+                            <span className="font-bold">Description: </span>
+                            It is a e-commerce site with an easy
                             and user-friendly UI.
                         </p>
                     </div>
