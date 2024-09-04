@@ -294,6 +294,9 @@ const Projects = () => {
                             </div>
                             <div className="outline outline-2 outline-offset-2 p-1 rounded-lg mx-1 my-2">
                                 React Hook
+                            </div> 
+                            <div className="outline outline-2 outline-offset-2 p-1 rounded-lg mx-1 my-2">
+                                Framer Motion
                             </div>
                         </div>
                         <p>
@@ -326,7 +329,7 @@ const Projects = () => {
                         <p>
                             <span className="font-bold">Description: </span>
                             It is a e-commerce site with an easy
-                            and user-friendly UI.
+                            and user-friendly UI, with interactive Animation features.
                         </p>
                     </div>
                 </div>
